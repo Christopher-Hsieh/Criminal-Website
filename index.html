@@ -1,51 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Criminal</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
 
-
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
+<!-- Navbar -->
+<nav class="navbar navbar-inverse">
+  <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Criminal</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">CRIMINAL</a>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
-    </ul>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Why Broner Is Great</a></li>
+      </ul>
+    </div>
   </div>
 </nav>
 
-<div class="row">
-  <div class="col-sm-4">
-  	<img src="images/criminalicon.PNG" class="img-thumbnail"/>
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Elite Albion Online Guild</h3>
+  <img src="bird.jpg" class="img-responsive img-circle margin" style="display:inline" alt="img1" width="350" height="350">
+  <h3>Leaders with experience. Criminal leadership has been around since the first beta, leading alliances and fights with thousands of men.</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Become a Criminal</h3>
+  <p>Apply today by joining our Discord: discord.gg/XXXXX joing the room "Casting Couch" </p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Apply Now
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Criminal Requirements</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Not Be a Cuck</p>
+      <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Play at least once a week</p>
+      <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Minimum Tier 6 gear and T7 Reaver</p>
+      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
   </div>
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
 </div>
 
-<div class="row">
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
-</div>
-
-<div class="row">
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
-</div>
-
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
 
 </body>
 </html>
